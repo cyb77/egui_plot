@@ -35,8 +35,9 @@ serde = { version = "1", features = ["derive"] }
 
 [patch.crates-io]
 # If you want to use the bleeding edge version of egui and eframe:
-# egui = { git = "https://github.com/emilk/egui", branch = "master" }
-# eframe = { git = "https://github.com/emilk/egui", branch = "master" }
+egui = { git = "https://github.com/ArthurBrussee/egui/", branch = "winit-update" }
+eframe = { git = "https://github.com/ArthurBrussee/egui/", branch = "winit-update" }
+emath = { git = "https://github.com/ArthurBrussee/egui/", branch = "winit-update" }
 
 # If you fork https://github.com/emilk/egui you can test with:
 # egui = { path = "../egui/crates/egui" }
