@@ -26,9 +26,9 @@ ahash = { version = "0.8.11", default-features = false, features = [
     "std",
 ] }
 document-features = " 0.2.8"
-eframe = { git = "https://github.com/ArthurBrussee/egui/", branch = "winit-update", default-features = false }
-egui = { git = "https://github.com/ArthurBrussee/egui/", branch = "winit-update", default-features = false }
-emath = { git = "https://github.com/ArthurBrussee/egui/", branch = "winit-update", default-features = false }
+eframe = { git = "https://github.com/emilk/egui/", default-features = false }
+egui = { git = "https://github.com/emilk/egui/", default-features = false }
+emath = { git = "https://github.com/emilk/egui/", default-features = false }
 image = { version = "0.25", default-features = false }
 serde = { version = "1", features = ["derive"] }
 
